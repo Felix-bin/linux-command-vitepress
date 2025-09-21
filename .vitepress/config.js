@@ -5,6 +5,7 @@ export default defineConfig({
   lang: "zh-CN",
   title: "Linux 命令大全",
   description: "最全面的 Linux 命令参考手册",
+  base: "/linux-command-vitepress/",
 
   cleanUrls: true,
   lastUpdated: true,
