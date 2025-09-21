@@ -39,13 +39,19 @@ export default defineConfig({
           { text: "包管理", link: "/category/package-management" },
         ],
       },
-      { text: "GitHub", link: "https://github.com/jaywcjlove/linux-command" },
+      {
+        text: "GitHub",
+        link: "https://github.com/Felix-bin/linux-command-vitepress",
+      },
     ],
 
     sidebar: generateSidebar(),
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/jaywcjlove/linux-command" },
+      {
+        icon: "github",
+        link: "https://github.com/Felix-bin/linux-command-vitepress",
+      },
     ],
 
     search: {
@@ -70,13 +76,14 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/jaywcjlove/linux-command/edit/main/:path",
+      pattern:
+        "https://github.com/Felix-bin/linux-command-vitepress/edit/main/:path",
       text: "在 GitHub 上编辑此页",
     },
 
     footer: {
       message: "基于 MIT 许可发布",
-      copyright: "Copyright © 2024 Linux Command",
+      copyright: "Copyright © 2025 Linux Command",
     },
 
     docFooter: {
@@ -104,6 +111,6 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: "https://wangchujiang.com/linux-command/",
+    hostname: "https://felix-bin.github.io/linux-command-vitepress/",
   },
 });

@@ -66,6 +66,12 @@ features:
   </a>
 </div>
 
+## 🎖️ 致敬
+
+本项目致敬并基于 [@jaywcjlove](https://github.com/jaywcjlove) 的优秀开源项目 [linux-command](https://github.com/jaywcjlove/linux-command)，使用 VitePress 重新构建，提供更现代化的文档体验，并提供分类索引。
+
+感谢原作者及所有贡献者为 Linux 社区所做的卓越贡献！ 🙏
+
 <style>
 .command-grid {
   display: grid;

@@ -1,10 +1,16 @@
-# Linux 命令大全
+# Linux 命令大全 (VitePress 版)
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/jaywcjlove/linux-command)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Felix-bin/linux-command-vitepress)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Website](https://img.shields.io/badge/website-online-brightgreen.svg)](https://wangchujiang.com/linux-command/)
+[![Website](https://img.shields.io/badge/website-online-brightgreen.svg)](https://felix-bin.github.io/linux-command-vitepress/)
 
 > 最全面的 Linux 命令参考手册，收录 600+ 个命令详细说明和使用示例
+
+## 🎖️ 致敬
+
+本项目致敬并基于 [@jaywcjlove](https://github.com/jaywcjlove) 的优秀开源项目 [linux-command](https://github.com/jaywcjlove/linux-command.git)，使用 VitePress 重新构建，提供更现代化的文档体验，并提供分类索引。
+
+感谢原作者及所有贡献者为 Linux 社区所做的卓越贡献！ 🙏
 
 ## 🚀 特性
 
@@ -60,8 +66,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/jaywcjlove/linux-command.git
-cd linux-command
+git clone https://github.com/Felix-bin/linux-command-vitepress.git
+cd linux-command-vitepress
 
 # 安装依赖
 npm install
@@ -79,7 +85,7 @@ npm run preview
 ### 项目结构
 
 ```
-linux-command/
+linux-command-vitepress/
 ├── .vitepress/           # VitePress 配置
 │   ├── config.js        # 主配置文件
 │   ├── sidebar.js       # 侧边栏配置
@@ -153,14 +159,14 @@ command --advanced-option
 ```
 
 ## 📄 许可证
-
 本项目基于 [MIT](LICENSE) 许可证开源。
 
 ## 🔗 相关链接
 
-- [在线文档](https://wangchujiang.com/linux-command/)
-- [GitHub 仓库](https://github.com/jaywcjlove/linux-command)
-- [反馈问题](https://github.com/jaywcjlove/linux-command/issues)
+- [在线文档](https://felix-bin.github.io/linux-command-vitepress/)
+- [GitHub 仓库](https://github.com/Felix-bin/linux-command-vitepress)
+- [反馈问题](https://github.com/Felix-bin/linux-command-vitepress/issues)
+- [原始项目](https://github.com/jaywcjlove/linux-command) - 感谢 [@jaywcjlove](https://github.com/jaywcjlove)
 
 ## 🙏 致谢
 
