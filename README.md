@@ -1,4 +1,4 @@
-# Linux 命令大全 (VitePress 版)
+# Linux 命令大全
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Felix-bin/linux-command-vitepress)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -175,6 +175,7 @@ command --advanced-option
 ---
 
 如果这个项目对你有帮助，请给我们一个 ⭐️！
+
 
 
 
