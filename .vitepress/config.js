@@ -9,6 +9,10 @@ export default defineConfig({
 
   cleanUrls: true,
   lastUpdated: true,
+  ignoreDeadLinks: [
+    // Ignore LICENSE file links since it's not a markdown file
+    /^.*LICENSE$/,
+  ],
 
   head: [
     [
