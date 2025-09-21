@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/website-online-brightgreen.svg)](https://felix-bin.github.io/linux-command-vitepress/)
 
-> 最全面的 Linux 命令参考手册，收录 600+ 个命令详细说明和使用示例
+> 一个全面的 Linux 命令参考手册，基于linux-command/command下提供的md包含的600+ 个命令详细说明和使用示例
 
 ## 🎖️ 致敬
 
@@ -59,8 +59,8 @@
 
 ### 环境要求
 
-- Node.js >= 16.0.0
-- npm 或 yarn
+- Node.js >= 18.0.0
+- npm
 
 ### 本地运行
 
@@ -175,5 +175,6 @@ command --advanced-option
 ---
 
 如果这个项目对你有帮助，请给我们一个 ⭐️！
+
 
 
