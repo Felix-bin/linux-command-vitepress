@@ -1,0 +1,225 @@
+/* 自定义样式 */
+:root {
+  /* 品牌色调整 */
+  --vp-c-brand: #2c5aa0;
+  --vp-c-brand-light: #3a67b8;
+  --vp-c-brand-dark: #1e3d6f;
+  --vp-c-brand-darker: #14285a;
+  --vp-c-brand-dimm: rgba(44, 90, 160, 0.08);
+}
+
+/* 代码块样式优化 */
+.vp-doc div[class*="language-"] {
+  margin: 16px 0;
+  border-radius: 8px;
+}
+
+.vp-doc div[class*="language-"] code {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* 命令标题样式 */
+.vp-doc h1:first-child {
+  border-bottom: 3px solid var(--vp-c-brand);
+  padding-bottom: 8px;
+}
+
+/* 表格样式优化 */
+.vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-border);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-alt);
+  font-weight: 600;
+}
+
+/* 警告框样式 */
+.vp-doc .custom-block.tip {
+  border-color: var(--vp-c-brand);
+}
+
+.vp-doc .custom-block.warning {
+  border-color: #f7b955;
+}
+
+.vp-doc .custom-block.danger {
+  border-color: #f56565;
+}
+
+/* 导航菜单优化 */
+.VPNavBarMenuGroup .VPNavBarMenuLink:hover {
+  background-color: var(--vp-c-brand-dimm);
+}
+
+/* 搜索框样式 */
+.DocSearch-Button {
+  border-radius: 8px;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 28px;
+  }
+
+  .vp-doc h2 {
+    font-size: 22px;
+  }
+
+  .vp-doc div[class*="language-"] code {
+    font-size: 13px;
+  }
+}
+
+/* 命令页面特殊样式 */
+.command-meta {
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.command-meta h3 {
+  margin-top: 0;
+  color: var(--vp-c-brand);
+}
+
+/* 语法高亮区域 */
+.syntax-section {
+  background: var(--vp-c-bg-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* 选项列表优化 */
+.options-list {
+  background: var(--vp-c-bg-soft);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.options-list code {
+  background: var(--vp-c-brand-dimm);
+  color: var(--vp-c-brand-dark);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* 示例代码区域 */
+.example-section {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.example-section h3 {
+  background: var(--vp-c-bg-alt);
+  margin: 0;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--vp-c-border);
+  font-size: 16px;
+}
+
+.example-section .language-shell {
+  margin: 0;
+  border-radius: 0;
+}
+
+/* 返回顶部按钮优化 */
+.VPBackToTop {
+  background-color: var(--vp-c-brand);
+  border-radius: 50%;
+  box-shadow: 0 4px 12px var(--vp-shadow-3);
+}
+
+.VPBackToTop:hover {
+  background-color: var(--vp-c-brand-dark);
+}
+
+/* 页面加载动画 */
+.loading-animation {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 标签样式 */
+.command-tags {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.command-tag {
+  background: var(--vp-c-brand-dimm);
+  color: var(--vp-c-brand-dark);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  border: 1px solid var(--vp-c-brand-light);
+}
+
+/* 命令卡片 hover 效果增强 */
+.command-card:hover {
+  transform: translateY(-2px);
+}
+
+/* 深色模式优化 */
+html.dark {
+  --vp-c-brand: #4a90e2;
+  --vp-c-brand-light: #5ba0f2;
+  --vp-c-brand-dark: #357abd;
+}
+
+html.dark .command-meta {
+  background: var(--vp-c-bg-alt);
+  border-color: var(--vp-c-divider);
+}
+
+html.dark .syntax-section {
+  background: var(--vp-c-bg-elv);
+}
+
+/* 打印样式优化 */
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPDocFooter,
+  .VPBackToTop {
+    display: none !important;
+  }
+
+  .VPContent {
+    margin-left: 0 !important;
+  }
+
+  .vp-doc {
+    max-width: none !important;
+  }
+}
